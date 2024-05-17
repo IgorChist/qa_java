@@ -32,6 +32,7 @@ public class LionTest {
         Assert.assertEquals("Должен вернуться список - Животные, Птицы, Рыба", expectedFood, actualFood);
     }
 
+
     @Test(expected = Exception.class)
     public void doesHaveMane() throws Exception {
         new Lion("Заяц", feline);

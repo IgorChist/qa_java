@@ -22,6 +22,7 @@ public class LionParamTest {
         this.expectedResult = expectedResult;
     }
 
+
     @Test
     public void doesHaveMane() throws Exception {
         Feline feline = new Feline();

@@ -23,6 +23,7 @@ public class CatTest {
        }
 
 
+
    @Test
    public void getFoodCatWorkCorrectly() throws Exception {
        Cat cat = new Cat(feline);

@@ -12,6 +12,7 @@ import java.util.List;
         Assert.assertEquals("Должен вернуться список - Животные, Птицы, Рыба", expectedFood, actualFood);
     }
 
+
     @Test
     public void shouldReturnFamily() {
         Feline feline = new Feline();
